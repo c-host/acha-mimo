@@ -1,0 +1,61 @@
+{
+  "verbs": {
+    "micema": {
+      "label": "მიცემა / giving (ditransitive)",
+      "usedPreverbIds": ["mi", "mo"],
+      "annotations": {
+        "mo": {
+          "note": "With a first- or second-person recipient, the verb often takes მო-; the scene is anchored toward the speaker/listener (Ego Space).",
+          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მო- with I/II person recipient and object marking).",
+          "examples": [
+            {
+              "georgian": "მომცა",
+              "gloss": "(S)he gave to me"
+            },
+            {
+              "georgian": "მოგცა",
+              "gloss": "(S)he gave to you (sg.)"
+            }
+          ]
+        },
+        "mi": {
+          "note": "With a third-person recipient, მი- is typical; orientation is toward the non-participant (Alter Space).",
+          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მი- with III person recipient).",
+          "examples": [
+            {
+              "georgian": "მისცა",
+              "gloss": "(S)he gave to him/her"
+            },
+            {
+              "georgian": "მივეცი",
+              "gloss": "I gave to him/her"
+            }
+          ]
+        }
+      }
+    },
+    "motana": {
+      "label": "მოტანა / bringing",
+      "usedPreverbIds": ["mi", "mo"],
+      "annotations": {
+        "mo": {
+          "note": "Hither direction toward speaker/listener; common perfective path for ‘bring’.",
+          "examples": [
+            {
+              "georgian": "მომიტანა",
+              "gloss": "(S)he brought (it) to me"
+            }
+          ]
+        },
+        "mi": {
+          "examples": [
+            {
+              "georgian": "მიტანა",
+              "gloss": "to bring / deliver (lexeme pair with მოტანა)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
