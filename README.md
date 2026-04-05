@@ -47,15 +47,13 @@ Run both with `npm run build:all`.
 
 ### Deploy (GitHub Pages)
 
-You can host the **demo site** on GitHub Pages. This repo is a static Vite build: upload the contents of **`dist/`** as the published site (or use an Action that runs `npm run build` and deploys `dist`).
+You can host the **demo site** on GitHub Pages. This repo is a static Vite build: the published site must be the contents of **`dist/`** after `npm run build`, never the raw repo (Pages does not run Vite, so `/src/main.ts` would 404).
 
-1. In [`vite.config.ts`](vite.config.ts), set **`base`** to match your Pages URL:
-   - **Project site** (`https://<user>.github.io/<repo>/`): use `base: '/<repo>/'` (replace `<repo>` with the repository name).
-   - **User/organization site** (`https://<user>.github.io/`) or a **custom domain** at the root: keep `base: '/'`.
-2. Run `npm run build`. Data and `embed-test.html` are copied from `public/` into `dist/` automatically.
-3. In the repo **Settings → Pages**, set the source to **GitHub Actions** (recommended) or deploy the **`dist`** folder from the `gh-pages` branch.
+**Automated (recommended):** [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) runs on every push to `main`, builds, and deploys `dist/`. In the repo **Settings → Pages**, set **Source** to **GitHub Actions** (first run may ask to approve the `github-pages` environment).
 
-Default JSON paths use `import.meta.env.BASE_URL`, so fetches stay correct when `base` is not `/`.
+**`base` URL:** [`vite.config.ts`](vite.config.ts) uses **`/acha-mimo/`** for production builds only (`npm run build`), and **`/`** for `npm run dev` so local URLs stay at the server root. If you rename the GitHub repo, update `pagesRepoBase` in that file to `/<new-repo-name>/`. For a **user site** at `https://<user>.github.io/` or a **custom domain** at `/`, set production `base` to `'/'` instead.
+
+Default JSON paths use `import.meta.env.BASE_URL`, so data fetches stay correct under a subpath.
 
 ---
 
