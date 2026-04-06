@@ -192,7 +192,7 @@
       "tier": "modern_complex",
       "wiktionaryPath": "გადმო-",
       "simpleId": "gada",
-      "modernPreverb": true,
+      "modernPreverb": false,
       "spatialIconRowIds": [
         "gada",
         "mo"

@@ -114,7 +114,7 @@ Each preverb object includes at least: `id`, `display`, `tier`, `simpleId`, `mod
 
 **`simpleId`:** for `modern_complex` lemmas, the base simple preverb id (e.g. `she` for შემო-); otherwise `null`.
 
-**`modernPreverb`:** when true, the lemma is part of the diagram’s “modern preverbs” (9 simple + 7 with მო-); the **Modern preverbs only** checkbox (Reference panel) filters on this flag.
+**`modernPreverb`:** when true, the lemma is part of the diagram’s “modern preverbs” (9 simple preverbs + 6 complex preverbs with მო-); the **Modern preverbs only** checkbox (Reference panel) filters on this flag.
 
 **`spatialIconRowIds`:** which schematic icon rows appear in the **canvas** (bottom-left chrome) and in the Reference **spatial icons key** — **only** source of truth. Pole ids must be listed in `SPATIAL_ICON_ROW_IDS` in [`src/diagram/spatial-icons.ts`](src/diagram/spatial-icons.ts). Use **`[]`** for no icons (e.g. გარდა-).
 

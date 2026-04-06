@@ -116,7 +116,7 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
         <button type="button" class="pd-sidebar-toggle pd-sidebar-toggle--left" aria-expanded="true" aria-controls="pd-scroll-left" title="Hide reference panel">‹</button>
         <div class="pd-sidebar-scroll" id="pd-scroll-left">
           <aside class="pd-sidebar pd-sidebar--left" aria-label="Legend and diagram reference">
-            <label class="pd-check pd-modern-preverbs-label"><input type="checkbox" class="pd-modern-preverbs-only"/> Modern preverbs only (9 simple + 7 with მო-)</label>
+            <label class="pd-check pd-modern-preverbs-label"><input type="checkbox" class="pd-modern-preverbs-only"/> Modern preverbs only (9 simple preverbs + 6 complex preverbs with მო-)</label>
             <div class="pd-legend"></div>
             <div class="pd-axes-legend pd-axes-legend--stacked">
               <strong>Dimensions:</strong>
