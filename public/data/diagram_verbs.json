@@ -6,6 +6,7 @@
         "mi",
         "mo",
         "tsa",
+        "tsamo",
         "ga",
         "a",
         "cha",
@@ -42,6 +43,20 @@
             {
               "georgian": "წავალ",
               "gloss": "I will go [away]"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "tsamo": {
+          "note": "წამო-: departure + მო- — departure + hither toward Ego Space; ‘coming over/homewards’ toward the speech participants.",
+          "examples": [
+            {
+              "georgian": "წამოვიდა",
+              "gloss": "(S)he departed over (hither)"
+            },
+            {
+              "georgian": "წამოვალ",
+              "gloss": "I will depart over (hither)"
             }
           ],
           "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
