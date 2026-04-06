@@ -11,32 +11,32 @@ export interface CubeAxisEndpoint {
 
 export const CUBE_AXIS_ENDPOINTS: CubeAxisEndpoint[] = [
   {
-    position: [0, 1.58, 0],
+    position: [0, 1.62, 0],
     primary: 'Geographic Space (GS) ↑',
     secondary: 'Down → Up',
   },
   {
-    position: [0, -1.58, 0],
+    position: [0, -1.62, 0],
     primary: 'Geographic Space (GS) ↓',
     secondary: 'Up → Down',
   },
   {
-    position: [1.58, 0, 0],
+    position: [1.82, 0, 0],
     primary: 'Communicational Space (CS) →',
-    secondary: 'Ego Space (ES) → Alter Space (AS)',
+    secondary: 'Towards Alter Space (AS): Towards non-participants (III person)',
   },
   {
-    position: [-1.58, 0, 0],
+    position: [-1.82, 0, 0],
     primary: 'Communicational Space (CS) ←',
-    secondary: 'Alter Space (AS) → Ego Space (ES)',
+    secondary: 'Towards Ego Space (ES): Towards participants (speaker/addressee, I/II persons)',
   },
   {
-    position: [0, 0, 1.58],
+    position: [0, 0, 1.82],
     primary: 'Geographic Space (GS)',
     secondary: 'Inside → Outside',
   },
   {
-    position: [0, 0, -1.58],
+    position: [0, 0, -1.82],
     primary: 'Geographic Space (GS)',
     secondary: 'Outside → Inside',
   },
@@ -48,10 +48,10 @@ export const CUBE_AXIS_SEGMENTS: {
   to: [number, number, number]
   key: 'x' | 'y' | 'z'
 }[] = [
-  { from: [-1.48, 0, 0], to: [1.48, 0, 0], key: 'x' },
-  { from: [0, -1.48, 0], to: [0, 1.48, 0], key: 'y' },
-  { from: [0, 0, -1.48], to: [0, 0, 1.48], key: 'z' },
-]
+    { from: [-1.78, 0, 0], to: [1.78, 0, 0], key: 'x' },
+    { from: [0, -1.58, 0], to: [0, 1.58, 0], key: 'y' },
+    { from: [0, 0, -1.78], to: [0, 0, 1.78], key: 'z' },
+  ]
 
 export const AXIS_COLORS: Record<'x' | 'y' | 'z', number> = {
   x: 0x457b9d,

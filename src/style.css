@@ -586,7 +586,6 @@ body {
   padding: 0.5rem 1rem;
   font-size: 0.8rem;
   color: var(--pd-muted);
-  background: #e9ecef;
 }
 
 .pd-axes-legend--stacked {
@@ -596,7 +595,6 @@ body {
   padding: 0.65rem 0.75rem;
   border-radius: 8px;
   border: 1px solid var(--pd-border);
-  background: #e9ecef;
 }
 
 .pd-axes-legend strong {
@@ -607,6 +605,23 @@ body {
 .pd-axes-legend--stacked strong {
   margin-right: 0;
   margin-bottom: 0.15rem;
+}
+
+.pd-axes-legend__dimension {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  width: 100%;
+}
+
+.pd-axes-legend__subbullets {
+  margin: 0 0 0 1.1rem;
+  padding: 0;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .pd-citation-block {
@@ -805,7 +820,6 @@ body {
   font-size: 0.78rem;
   line-height: 1.45;
   color: var(--pd-text);
-  background: #f8f9fa;
   border-radius: 8px;
   border: 1px solid var(--pd-border);
 }

@@ -120,8 +120,14 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
             <div class="pd-legend"></div>
             <div class="pd-axes-legend pd-axes-legend--stacked">
               <strong>Dimensions:</strong>
-              <span><strong>Geographic Space (GS):</strong> directions up/down and in/out</span>
-              <span><strong>Communicational Space (CS):</strong> Ego Space (ES) / Alter Space (AS)</span>
+              <span><strong>Geographic Space (GS):</strong> up ←→ down / in ←→ out</span>
+              <div class="pd-axes-legend__dimension">
+                <span><strong>Communicational Space (CS):</strong> Ego Space (ES) ←→ Alter Space (AS)</span>
+                <ul class="pd-axes-legend__subbullets">
+                  <li><strong>Ego Space (ES):</strong> Towards participants (speaker/addressee, I/II persons)</li>
+                  <li><strong>Alter Space (AS):</strong> Towards non-participants (III person)</li>
+                </ul>
+              </div>
             </div>
             <div class="pd-reading-hint">
               <h3>Axes, arrows, perspective</h3>

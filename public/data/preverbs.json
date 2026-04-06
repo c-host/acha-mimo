@@ -7,7 +7,9 @@
       "wiktionaryPath": "შე-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["she"],
+      "spatialIconRowIds": [
+        "she"
+      ],
       "axisHints": {
         "geographic": "into (outside → inside)"
       }
@@ -19,7 +21,9 @@
       "wiktionaryPath": "ჩა-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["cha"],
+      "spatialIconRowIds": [
+        "cha"
+      ],
       "axisHints": {
         "geographic": "down (from up to down)"
       }
@@ -31,7 +35,9 @@
       "wiktionaryPath": "ა-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["a"],
+      "spatialIconRowIds": [
+        "a"
+      ],
       "axisHints": {
         "geographic": "up (from down to up)"
       }
@@ -43,7 +49,9 @@
       "wiktionaryPath": "გა-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["ga"],
+      "spatialIconRowIds": [
+        "ga"
+      ],
       "axisHints": {
         "geographic": "out (inside → outside)"
       }
@@ -55,7 +63,9 @@
       "wiktionaryPath": "გადა-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["gada"],
+      "spatialIconRowIds": [
+        "gada"
+      ],
       "axisHints": {
         "geographic": "across / over obstacles"
       }
@@ -67,10 +77,11 @@
       "wiktionaryPath": "მი-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["mi"],
+      "spatialIconRowIds": [
+        "mi"
+      ],
       "axisHints": {
-        "geographic": "Away from speaker and listener along the speech situation",
-        "communicational": "Oriented to third person — Alter Space (AS), Communicational Space (CS)"
+        "communicational": "Towards third person (Alter Space, AS), away from Ego Space (ES)"
       }
     },
     {
@@ -80,10 +91,11 @@
       "wiktionaryPath": "მო-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["mo"],
+      "spatialIconRowIds": [
+        "mo"
+      ],
       "axisHints": {
-        "geographic": "Toward speaker and listener (hither)",
-        "communicational": "Oriented to first/second person — Ego Space (ES), Communicational Space (CS)"
+        "communicational": "Towards first/second person (Ego Space, ES), hither"
       }
     },
     {
@@ -93,9 +105,11 @@
       "wiktionaryPath": "წა-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["tsa"],
+      "spatialIconRowIds": [
+        "tsa"
+      ],
       "axisHints": {
-        "geographic": "Departure from a referent — away, from here to there; often superficial along a surface"
+        "geographic": "Departure from a referent — away, from here to there"
       }
     },
     {
@@ -105,13 +119,12 @@
       "wiktionaryPath": "და-",
       "simpleId": null,
       "modernPreverb": true,
-      "spatialIconRowIds": ["da"],
-      "specialRules": [
-        "Location over a space rather than directed path; და-+მო- excluded in the canonical modern preverbs this diagram follows."
+      "spatialIconRowIds": [
+        "da"
       ],
-      "axisHints": {
-        "geographic": "above / over some space"
-      }
+      "specialRules": [
+        "Location over a space."
+      ]
     },
     {
       "id": "shemo",
@@ -120,7 +133,10 @@
       "wiktionaryPath": "შემო-",
       "simpleId": "she",
       "modernPreverb": true,
-      "spatialIconRowIds": ["she", "mo"]
+      "spatialIconRowIds": [
+        "she",
+        "mo"
+      ]
     },
     {
       "id": "chamo",
@@ -129,7 +145,10 @@
       "wiktionaryPath": "ჩამო-",
       "simpleId": "cha",
       "modernPreverb": true,
-      "spatialIconRowIds": ["cha", "mo"]
+      "spatialIconRowIds": [
+        "cha",
+        "mo"
+      ]
     },
     {
       "id": "gamo",
@@ -138,7 +157,10 @@
       "wiktionaryPath": "გამო-",
       "simpleId": "ga",
       "modernPreverb": true,
-      "spatialIconRowIds": ["ga", "mo"]
+      "spatialIconRowIds": [
+        "ga",
+        "mo"
+      ]
     },
     {
       "id": "amo",
@@ -147,7 +169,10 @@
       "wiktionaryPath": "ამო-",
       "simpleId": "a",
       "modernPreverb": true,
-      "spatialIconRowIds": ["a", "mo"]
+      "spatialIconRowIds": [
+        "a",
+        "mo"
+      ]
     },
     {
       "id": "tsamo",
@@ -156,19 +181,25 @@
       "wiktionaryPath": "წამო-",
       "simpleId": "tsa",
       "modernPreverb": true,
-      "spatialIconRowIds": ["tsa", "mo"]
+      "spatialIconRowIds": [
+        "tsa",
+        "mo"
+      ]
     },
     {
       "id": "gadmo",
       "display": "გადმო",
       "tier": "modern_complex",
       "wiktionaryPath": "გადმო-",
-      "aliases": ["გადამო-"],
       "simpleId": "gada",
       "modernPreverb": true,
-      "spatialIconRowIds": ["gada", "mo"],
+      "spatialIconRowIds": [
+        "gada",
+        "mo"
+      ],
       "axisHints": {
-        "communicational": "Across then toward speaker — productive counterpart of archaic გარდმო-"
+        "geographic": "გადა- in Geographic Space: across / over obstacles",
+        "communicational": "მო- in Communicational Space: toward Ego Space (ES) — first/second person (speaker/addressee), hither"
       }
     },
     {
@@ -178,7 +209,10 @@
       "wiktionaryPath": "მიმო-",
       "simpleId": "mi",
       "modernPreverb": true,
-      "spatialIconRowIds": ["mi", "mo"],
+      "spatialIconRowIds": [
+        "mi",
+        "mo"
+      ],
       "axisHints": {
         "communicational": "Back-and-forth between მი- (AS) and მო- (ES) — diagram places it near the center"
       }
@@ -190,12 +224,14 @@
       "wiktionaryPath": "წარ-",
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["tsa"],
+      "spatialIconRowIds": [
+        "tsa"
+      ],
       "specialRules": [
         "Archaic / literary alternative to წა-: forward, forth, projection — often formal or literary."
       ],
       "axisHints": {
-        "geographic": "Same broad family as წა- — path or extension outward along a surface or narrative line"
+        "geographic": "Same broad family as წა-"
       }
     },
     {
@@ -205,9 +241,11 @@
       "wiktionaryPath": "აღ-",
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["a"],
+      "spatialIconRowIds": [
+        "a"
+      ],
       "specialRules": [
-        "Dated form of ა- (a-): similar upward / outward sense but often more lexicalized or bound in stems."
+        "Dated form of ა-: similar upward / outward sense."
       ],
       "axisHints": {
         "geographic": "Related to ა- (up, along the vertical pole in Geographic Space)"
@@ -220,7 +258,11 @@
       "wiktionaryPath": "გან-",
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["a", "mo", "ga"],
+      "spatialIconRowIds": [
+        "a",
+        "mo",
+        "ga"
+      ],
       "axisHints": {
         "geographic": "Separation, dispersal, “apart” — often abstract (distribution, differentiation)"
       }
@@ -244,8 +286,13 @@
       "wiktionaryPath": "წარმო-",
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["tsa", "mo"],
-      "specialRules": ["Forward, forth + toward speaker, emergence, produce"]
+      "spatialIconRowIds": [
+        "tsa",
+        "mo"
+      ],
+      "specialRules": [
+        "Forward, forth + toward speaker, emergence, produce"
+      ]
     },
     {
       "id": "aghmo",
@@ -254,19 +301,25 @@
       "wiktionaryPath": "აღმო-",
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["a", "mo"]
+      "spatialIconRowIds": [
+        "a",
+        "mo"
+      ]
     },
     {
       "id": "gardmo",
       "display": "გარდმო",
       "tier": "old_complex",
       "wiktionaryPath": "გარდმო-",
-      "aliases": ["გარდამო-"],
       "simpleId": null,
       "modernPreverb": false,
-      "spatialIconRowIds": ["gada", "mo"],
+      "spatialIconRowIds": [
+        "gada",
+        "mo"
+      ],
       "axisHints": {
-        "communicational": "Archaic: across + toward speaker — same broad sense as productive გადმო-"
+        "geographic": "გარდა-/გადა- in Geographic Space: across, passing-by path (same broad sense as გადა-)",
+        "communicational": "მო- in Communicational Space: toward Ego Space (ES) — first/second person (speaker/addressee), hither"
       }
     }
   ]

@@ -3,4 +3,5 @@ dist/
 dist-lib/
 reference/
 .DS_Store
+logs/
 *.log
