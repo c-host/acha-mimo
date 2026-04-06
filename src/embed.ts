@@ -4,7 +4,7 @@
  */
 import './style.css'
 
-export { SITE_NAME_KA, SITE_SHORT_SLUG, documentTitle } from './branding'
+export { SITE_NAME_KA, SITE_SHORT_SLUG } from './branding'
 export { mountPreverbDiagram } from './diagram/mount'
 export type {
   MountOptions,

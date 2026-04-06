@@ -12,7 +12,7 @@ import { PreverbScene } from './scene'
 import { captureDiagramViewAsPng } from './capture-view'
 import { PV_SCENARIOS } from './scenarios'
 import { escapeAttr, escapeHtml, safeErrorMessage } from '../util/html'
-import { SITE_NAME_KA, documentTitle } from '../branding'
+import { SITE_NAME_KA } from '../branding'
 
 /** Public data URLs for the demo app; honor Vite `base` (e.g. GitHub Pages project sites). */
 function defaultDataUrl(relativePath: string): string {
@@ -195,9 +195,6 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
     <div class="pd-print-root" aria-hidden="true"></div>
   `
   container.appendChild(root)
-  if (typeof document !== 'undefined') {
-    document.title = documentTitle()
-  }
 
   const layoutEl = root.querySelector('.pd-layout') as HTMLElement
   const drawerBackdrop = root.querySelector('.pd-drawer-backdrop') as HTMLElement
