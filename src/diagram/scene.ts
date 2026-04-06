@@ -415,19 +415,23 @@ export class PreverbScene {
     for (const e of layout.entries) {
       const p = byId.get(e.id)
       if (!p) continue
-      if (options.modernPreverbsOnly && !p.modernPreverb) continue
 
       const ox = e.labelOffset?.[0] ?? 0
       const oy = e.labelOffset?.[1] ?? 0
       const oz = e.labelOffset?.[2] ?? 0
       const pos = new THREE.Vector3(e.position[0] + ox, e.position[1] + oy, e.position[2] + oz)
 
+      if (e.id === 'tsa') this.tsaHintAnchor.copy(pos)
+      if (e.id === 'da') this.daPlaneAnchor.copy(pos)
+
+      if (options.modernPreverbsOnly && !p.modernPreverb) continue
+      if (options.mode === 'verb' && options.usedIds && !options.usedIds.has(p.id)) continue
+
       const div = document.createElement('div')
       div.className = `pd-label ${TIER_CLASS[p.tier] ?? ''}`
       div.textContent = p.display
-      const verbDim = options.mode === 'verb' && options.usedIds && !options.usedIds.has(p.id)
       const tierDim = options.legendTier != null && p.tier !== options.legendTier
-      if (verbDim || tierDim) div.classList.add('pd-label--dim')
+      if (tierDim) div.classList.add('pd-label--dim')
       if (options.selectedId === p.id) div.classList.add('pd-label--selected')
       if (options.scenarioHighlight?.has(p.id)) div.classList.add('pd-label--scenario')
 
@@ -435,8 +439,6 @@ export class PreverbScene {
       label.position.copy(pos)
       this.scene.add(label)
       this.labelById.set(p.id, label)
-      if (e.id === 'tsa') this.tsaHintAnchor.copy(pos)
-      if (e.id === 'da') this.daPlaneAnchor.copy(pos)
 
       const geom = new THREE.SphereGeometry(0.18, 12, 12)
       const mat = new THREE.MeshBasicMaterial({
@@ -474,9 +476,8 @@ export class PreverbScene {
         continue
       }
       el.style.display = ''
-      const verbDim = options.mode === 'verb' && options.usedIds && !options.usedIds.has(id)
       const tierDim = options.legendTier != null && p.tier !== options.legendTier
-      if (verbDim || tierDim) el.classList.add('pd-label--dim')
+      if (tierDim) el.classList.add('pd-label--dim')
       if (options.selectedId === id) el.classList.add('pd-label--selected')
       if (options.scenarioHighlight?.has(id)) el.classList.add('pd-label--scenario')
     }

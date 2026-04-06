@@ -1,12 +1,216 @@
 {
   "verbs": {
+    "divalvedsul": {
+      "label": "დი/ვალ/ვედ/სულ — to go",
+      "usedPreverbIds": [
+        "mi",
+        "mo",
+        "tsa",
+        "ga",
+        "a",
+        "cha",
+        "she",
+        "da",
+        "gada",
+        "shemo",
+        "gamo",
+        "chamo",
+        "amo"
+      ],
+      "annotations": {
+        "mi": {
+          "note": "მი-: motion oriented toward Alter Space (away from the speaker–addressee pole on the blue axis). Only used in present sub-series of I-Series for this verb. Switches to წა- in other series.",
+          "examples": [
+            {
+              "georgian": "მივდივარ",
+              "gloss": "I am going"
+            },
+            {
+              "georgian": "მიდის",
+              "gloss": "(S)he goes"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "tsa": {
+          "note": "წა-: departure / ‘away’ along the Geographic vertical and related paths (diagram წა- family); future I series uses წა- + ვალ on this verb.",
+          "examples": [
+            {
+              "georgian": "წავიდა",
+              "gloss": "(S)he went [away]"
+            },
+            {
+              "georgian": "წავალ",
+              "gloss": "I will go [away]"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "ga": {
+          "note": "გა-: motion out (inside → outside) on the purple in/out axis.",
+          "examples": [
+            {
+              "georgian": "გავიდა",
+              "gloss": "(S)he went out"
+            },
+            {
+              "georgian": "გავალ",
+              "gloss": "I will go out"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "mo": {
+          "note": "მო-: motion toward the speaker/listener (Ego Space).",
+          "examples": [
+            {
+              "georgian": "მოვიდა",
+              "gloss": "(S)he came"
+            },
+            {
+              "georgian": "მოვალ",
+              "gloss": "I will come"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "a": {
+          "note": "ა-: motion up along the green vertical (from lower to higher).",
+          "examples": [
+            {
+              "georgian": "ავიდა",
+              "gloss": "(S)he went up"
+            },
+            {
+              "georgian": "ავალ",
+              "gloss": "I will go up"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "cha": {
+          "note": "ჩა-: motion down along the green vertical (from higher to lower).",
+          "examples": [
+            {
+              "georgian": "ჩავიდა",
+              "gloss": "(S)he went down"
+            },
+            {
+              "georgian": "ჩავალ",
+              "gloss": "I will go down"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "she": {
+          "note": "შე-: motion in (outside → inside) on the purple axis.",
+          "examples": [
+            {
+              "georgian": "შევიდა",
+              "gloss": "(S)he went in"
+            },
+            {
+              "georgian": "შევალ",
+              "gloss": "I will go in"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "da": {
+          "note": "და-: ‘above a space’ / distributed motion over an area (diagram: location over space); with this suppletive stem often ‘walk / go about’ rather than a single directed path.",
+          "examples": [
+            {
+              "georgian": "დადის",
+              "gloss": "(S)he walks / goes about (to-and-fro)"
+            },
+            {
+              "georgian": "დავდივარ",
+              "gloss": "I walk / I am going about"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "gada": {
+          "note": "გადა-: motion across / over an obstacle or boundary (enclosure path on the diagram).",
+          "examples": [
+            {
+              "georgian": "გადავიდა",
+              "gloss": "(S)he went across / passed"
+            },
+            {
+              "georgian": "გადავალ",
+              "gloss": "I will go across"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "shemo": {
+          "note": "შემო-: შე- + მო- — in + hither toward Ego Space (I/II); ‘come in’ toward the speech participants.",
+          "examples": [
+            {
+              "georgian": "შემოვიდა",
+              "gloss": "(S)he came in (hither)"
+            },
+            {
+              "georgian": "შემოვალ",
+              "gloss": "I will come in (hither)"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "gamo": {
+          "note": "გამო-: გა- + მო- — out + hither toward Ego Space; ‘come out’ toward the speech participants.",
+          "examples": [
+            {
+              "georgian": "გამოვიდა",
+              "gloss": "(S)he came out (hither)"
+            },
+            {
+              "georgian": "გამოვალ",
+              "gloss": "I will come out (hither)"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "chamo": {
+          "note": "ჩამო-: ჩა- + მო- — down + hither toward Ego Space; ‘come down’ toward the speech participants.",
+          "examples": [
+            {
+              "georgian": "ჩამოვიდა",
+              "gloss": "(S)he came down (hither)"
+            },
+            {
+              "georgian": "ჩამოვალ",
+              "gloss": "I will come down (hither)"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        },
+        "amo": {
+          "note": "ამო-: ა- + მო- — up + hither toward Ego Space; ‘come up’ toward the speech participants.",
+          "examples": [
+            {
+              "georgian": "ამოვიდა",
+              "gloss": "(S)he came up (hither)"
+            },
+            {
+              "georgian": "ამოვალ",
+              "gloss": "I will come up (hither)"
+            }
+          ],
+          "citation": "Paradigm: Lingua.ge — დი/ვალ/ვედ/სულ (to go). https://lingua.ge/verbs/%e1%83%93%e1%83%98-%e1%83%95%e1%83%90%e1%83%9a-%e1%83%95%e1%83%94%e1%83%93-%e1%83%a1%e1%83%a3%e1%83%9a/"
+        }
+      }
+    },
     "micema": {
       "label": "მიცემა / giving (ditransitive)",
-      "usedPreverbIds": ["mi", "mo"],
+      "usedPreverbIds": [
+        "mi",
+        "mo"
+      ],
       "annotations": {
         "mo": {
           "note": "With a first- or second-person recipient, the verb often takes მო-; the scene is anchored toward the speaker/listener (Ego Space).",
-          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მო- with I/II person recipient and object marking).",
           "examples": [
             {
               "georgian": "მომცა",
@@ -15,45 +219,35 @@
             {
               "georgian": "მოგცა",
               "gloss": "(S)he gave to you (sg.)"
+            },
+            {
+              "georgian": "მოგვცა",
+              "gloss": "(S)he gave to us"
+            },
+            {
+              "georgian": "მოგცათ",
+              "gloss": "(S)he gave to you (pl.)"
             }
-          ]
+          ],
+          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მო- with I/II person recipient and object marking)."
         },
         "mi": {
           "note": "With a third-person recipient, მი- is typical; orientation is toward the non-participant (Alter Space).",
-          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მი- with III person recipient).",
           "examples": [
-            {
-              "georgian": "მისცა",
-              "gloss": "(S)he gave to him/her"
-            },
             {
               "georgian": "მივეცი",
               "gloss": "I gave to him/her"
-            }
-          ]
-        }
-      }
-    },
-    "motana": {
-      "label": "მოტანა / bringing",
-      "usedPreverbIds": ["mi", "mo"],
-      "annotations": {
-        "mo": {
-          "note": "Hither direction toward speaker/listener; common perfective path for ‘bring’.",
-          "examples": [
+            },
             {
-              "georgian": "მომიტანა",
-              "gloss": "(S)he brought (it) to me"
-            }
-          ]
-        },
-        "mi": {
-          "examples": [
+              "georgian": "მიეცი",
+              "gloss": "You (sg.) gave to him/her"
+            },
             {
-              "georgian": "მიტანა",
-              "gloss": "to bring / deliver (lexeme pair with მოტანა)"
+              "georgian": "მისცა",
+              "gloss": "(S)he gave to him/her"
             }
-          ]
+          ],
+          "citation": "Rusudan Asatiani, Dynamic Conceptual Model of the Linguistic Structuring of Space: the Georgian Preverbs, section V (მი- with III person recipient)."
         }
       }
     }

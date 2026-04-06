@@ -126,7 +126,7 @@ Root object has a **`verbs`** property: keys are **verb profile ids** (e.g. `mic
 
 - **`label`** (optional) — human-readable title in the verb dropdown.
 - **`usedPreverbIds`** — preverb `id`s that stay fully visible in verb mode; others are dimmed.
-- **`annotations`** (optional) — map from preverb `id` to optional **`note`**, **`citation`**, **`examples`** (`{ georgian, gloss }[]`).
+- **`annotations`** (optional) — map from preverb `id` to optional **`note`**, **`examples`** (`{ georgian, gloss }[]`), **`citation`**. The details panel shows **note**, then **examples**, then **citation** (order in JSON does not change that).
 
 ### TypeScript sources (behavior not only in JSON)
 

@@ -11,7 +11,7 @@ import { buildSpatialIconsSectionHtml, buildCanvasIconStripHtml } from './spatia
 import { PreverbScene } from './scene'
 import { captureDiagramViewAsPng } from './capture-view'
 import { PV_SCENARIOS } from './scenarios'
-import { escapeAttr, escapeHtml, safeErrorMessage } from '../util/html'
+import { escapeAttr, escapeHtml, formatCitationHtml, safeErrorMessage } from '../util/html'
 import { SITE_NAME_KA } from '../branding'
 
 /** Public data URLs for the demo app; honor Vite `base` (e.g. GitHub Pages project sites). */
@@ -461,8 +461,6 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
       html += `<p><a href="${u}" target="_blank" rel="noopener">Wiktionary</a></p>`
     }
     if (ann?.note) html += `<p class="pd-annote"><strong>Note:</strong> ${escapeHtml(ann.note)}</p>`
-    if (ann?.citation)
-      html += `<p class="pd-ann-citation"><strong>Citation:</strong> ${escapeHtml(ann.citation)}</p>`
     if (ann?.examples?.length) {
       html += `<h4>Examples</h4><ul class="pd-examples">`
       for (const ex of ann.examples) {
@@ -470,6 +468,8 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
       }
       html += `</ul>`
     }
+    if (ann?.citation)
+      html += `<p class="pd-ann-citation"><strong>Citation:</strong> ${formatCitationHtml(ann.citation)}</p>`
     panel.innerHTML = html
   }
 
