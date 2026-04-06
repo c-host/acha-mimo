@@ -670,7 +670,8 @@ body {
   margin: 0 0 0.15rem;
   padding-bottom: 0.65rem;
   border-bottom: 1px solid var(--pd-border);
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+  color: var(--pd-muted)
 }
 
 .pd-sidebar--right {
@@ -1046,6 +1047,8 @@ body {
 .pd-scenario-box p {
   margin: 0.35rem 0 0;
   font-size: 0.82rem;
+  /* Scenario `body` strings may use \n for line breaks (see scenarios.ts). */
+  white-space: pre-line;
 }
 
 /* Axis endpoint captions (CSS2D) */

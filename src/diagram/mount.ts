@@ -130,7 +130,7 @@ export async function mountPreverbDiagram(options: MountOptions): Promise<MountH
               </div>
             </div>
             <div class="pd-reading-hint">
-              <h3>Axes, arrows, perspective</h3>
+              <h3>Axes, arrows, perspectives</h3>
               <p>Colored <strong>arrows</strong> from the center show the six main directions (<strong>up/down</strong>, <strong>in/out</strong>, <strong>toward ego</strong> / <strong>toward alter</strong>).</p>
               <ul>
                 <li><span class="pd-key pd-key--y"></span> <strong>Green</strong> — Geographic movement up/down (GS) along <strong>ა-</strong> / <strong>ჩა-</strong>.</li>
